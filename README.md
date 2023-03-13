@@ -1,5 +1,5 @@
 # RetentionCurveProject
-#Healthcare #RetentionCurve #Python # Exploratory Data Analysis #Descriptive Statistics #Regression model # Inferential Statistics#Pandas #Matplotlib #Seaborn #Statsmodels #Jupyternoteboo
+#Healthcare #RetentionCurve #Python # Exploratory Data Analysis #Descriptive Statistics #Regression model # Inferential Statistics#Pandas #Matplotlib #Seaborn #Statsmodels #Jupyternotebook
 
 -------------------------------------
 
@@ -61,24 +61,29 @@ Retention rate is an important metric that calculates the percentage of users wh
 
 * Relevant Files:
 
-1) Retention Curve Project.ipynb
+**1) Retention Curve Project.ipynb**
 
 - Utilized Python programming language within a Jupyter Notebook environment.
 - Developed the code for data analysis using various statistical approaches including IQR Method and Regression/Statistical Modeling techniques.
 - Employed data visualization techniques with Matplotlib/Seaborn library to convey meaningful insights regarding the Cumulative/Normal Retention Rate/Curve.
 - Presented the results in a clear and concise manner to facilitate easy interpretation and understanding of the findings.
 
-2) PowerBI Visualization [Retention Curve Project].pbix
+**2) PowerBI Visualization [Retention Curve Project].pbix**
 
 - Utilized PowerBI, a data visualization and business intelligence tool, to present the findings.
 - Integrated various forms of valuable information, such as map and tree charts, to identify correlations between member lifetime and other relevant variables.
 - Presented the analysis in a clear and concise manner to facilitate easy interpretation and understanding of the findings.
 
-3) Mid-Atlantic SKU Selection Presentation.pptx
-- Outlook summary of my findings and purpose of this project
-- Summarized all the process I applied to this project (Statistical/Inferential/Descriptive Analysis)
-- Included my personal thought on future improvement of this work for the future use
+**3) Retention Curve Rate Pivot Table.csv**
 
+- This file contains the final outcome of the analysis that was performed using Python programming language to draw the retention curve and calculate the retention rate.
+- The methodology for the calculation can be found in the Retention Curve Project.ipynb notebook.
+
+**4) Final Statement.docx**
+
+- This document provides an overview of the findings and the purpose of the project.
+- It summarizes the entire process that was undertaken, including the data preparation, analysis, and visualization techniques employed.
+ 
 ---------------------------------
 
 Last but not least, please feel free to comment if you have any new idea to add on this project for the development.

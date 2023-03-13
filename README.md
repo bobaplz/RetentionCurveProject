@@ -1,4 +1,4 @@
-# Retention Curve Project
+# Cohort Analysis / Retention Curve Porject
 #Healthcare #RetentionCurve #Python # Exploratory Data Analysis #Descriptive Statistics #Regression model # Inferential Statistics#Pandas #Matplotlib #Seaborn #Statsmodels #Jupyternotebook
 
 -------------------------------------

@@ -7,7 +7,7 @@
 
 This project has been constructed with a Coholt Analysis for the case when a healthcare company (e.g. ) to analyze retention rate of the customers at the coholt level. 
 
-Part 1 
+**Part 1** 
 
 Customer Life Time Value (LTV) is measured for each cohort, which consists of all members starting in a given calendar month. There are several metrics that impact LTV:  
 
@@ -21,9 +21,18 @@ o	This metric changes across the months in the cohort lifetime
 
 Here is my LTV formula I wrote up: **(CMPM * MEMBER COUNT) * (MRR / (1+IR-MRR)) **
 
+Explanation : 
+
+Please note that as someone who has not worked in the healthcare industry, I cannot guarantee the accuracy of this formula. However, based on my research and understanding, it appears that the formula (CMPM * MEMBER COUNT) * (MRR / (1+IR-MRR)) can be used to estimate the lifetime value of a particular cohort, taking into account factors such as commission per member, retention rates, interest rates, and the number of members in the cohort. 
+
+The first part, (CMPM * MEMBER COUNT), calculates the total revenue earned from the cohort. It multiplies the commission earned per member each month by the number of members in the cohort to get the total revenue earned over the cohort lifetime.
+
+The second part, (MRR / (1+IR-MRR)), calculates the discount rate-adjusted retention rate for the cohort. It takes the monthly retention rate for the cohort and adjusts it for the time value of money using the interest rate. This calculates the probability that a customer will continue to use the service in the future, given the discount rate and retention rate.
+Multiplying these two parts together gives you the estimated total value of the cohort over its lifetime.
 
 
-Part 2 
+
+**Part 2** 
 
 The csv file has paying member historical data arranged by Policy_number from January 2015 to December 2019 with the following fields:
 
@@ -50,27 +59,20 @@ Retention rate is an important metric that calculates the percentage of users wh
 
 -------------------------------------
 
-This project will be divided into four parts in order :
-
-1) Macro-view Trend Analysis (Competitive/Geographical Analysis) -- US vs Mid-Atlantic
-2) 5,000 SKU Selection on the basis of statistical approach
-3) Categorial Proportion analysis in 5,000 SKU selection
-4) Future Improvement & Strategical Planning
-
--------------------------------------
-
 * Relevant Files:
 
-1) Hana Project Visualization.pbix
-- Used PowerBI as a visualization tool
-- visualized the findings and analysis with a meaningful story from the reader's perspective
-- First two slides heavily focus on the competitive analysis between US territory vs Mid-Atlantic area
-- third/fourth slides are composed of all information what I have found from dataset in Mid-Atlantic area
+1) Retention Curve Project.ipynb
 
-2) Retail SKU Selection Project Python.py
-- Used Jupyter Notebook
-- Used IQR method to select the SKUs without violating categorical distribution trend (You can see the reason why I chose this method and how I applied to the item selection process in the ppt file, so please read if you are interested)
-- Added visualization section with pieplot, barplot, lineplot, and donut chart
+- Utilized Python programming language within a Jupyter Notebook environment.
+- Developed the code for data analysis using various statistical approaches including IQR Method and Regression/Statistical Modeling techniques.
+- Employed data visualization techniques with Matplotlib/Seaborn library to convey meaningful insights regarding the Cumulative/Normal Retention Rate/Curve.
+- Presented the results in a clear and concise manner to facilitate easy interpretation and understanding of the findings.
+
+2) PowerBI Visualization [Retention Curve Project].pbix
+
+- Utilized PowerBI, a data visualization and business intelligence tool, to present the findings.
+- Integrated various forms of valuable information, such as map and tree charts, to identify correlations between member lifetime and other relevant variables.
+- Presented the analysis in a clear and concise manner to facilitate easy interpretation and understanding of the findings.
 
 3) Mid-Atlantic SKU Selection Presentation.pptx
 - Outlook summary of my findings and purpose of this project

@@ -5,7 +5,7 @@
 
 ## General Outlook / Objectives
 
-This project has been constructed with a Coholt Analysis for the case when a healthcare company (e.g. ) to analyze retention rate of the customers at the coholt level. 
+This project has been constructed with a Coholt Analysis for the case when a healthcare company (e.g. Molina Healthcare, United Healthcare, eHealth, etc.) to analyze retention rate of the customers at the coholt level. 
 
 **Part 1** 
 

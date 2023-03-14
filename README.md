@@ -12,10 +12,10 @@ This project has been constructed with a Coholt Analysis for the case when a hea
 Customer Life Time Value (LTV) is measured for each cohort, which consists of all members starting in a given calendar month. There are several metrics that impact LTV:  
 
 -	Monthly Retention Rates across the cohort lifetime (MRR)
-o	Defined as: Retained members at month t/Retained members at month t-1 
-o	This metric changes across the months in the cohort lifetime
+** Defined as: Retained members at month t/Retained members at month t-1 
+** This metric changes across the months in the cohort lifetime
 -	Commission Per Member Per Month (CMPM) 
-o	This metric changes across the months in the cohort lifetime
+** This metric changes across the months in the cohort lifetime
 -	Interest Rate (IR)
 -	Member count for the cohort
 
